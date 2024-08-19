@@ -7,8 +7,4 @@ public class Matrix {
         System.out.println("Razmernost massiva: ");
     }
 
-    double sumMassiv(double[][]dvoinoiMassiv, int lines, int cols) {
-
-    }
-
 }
