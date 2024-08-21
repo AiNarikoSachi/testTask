@@ -39,35 +39,35 @@ public class Main {
         person.talk("vade");
         person.move("loax"); */
 
-        /*String [] infoMassiv = new String[5];
-        Scanner sc = new Scanner(System.in);
+        /*Matrix matrix = new Matrix();
+        matrix.printMatrix();
+        matrix.sumMatrix();*/
 
-        System.out.println("Vvedite FIO:");
-        String fIO = sc.nextLine();
+        /*Reader reader = new Reader();
+        String fIO = reader.fIO;
+        String numberBook = reader.numberBook;
+        String faculty = reader.faculty;
+        String dateBorn = reader.dateBorn;
+        String numberPhone = reader.numberPhone;
+
+        String[] infoMassiv = new String[5];
         infoMassiv[0] = fIO;
-
-        System.out.println("Vvedite nomer chitatelskogo bileta:");
-        String numberBook = sc.nextLine();
         infoMassiv[1] = numberBook;
-
-        System.out.println("Vvedite nazvanie faculty:");
-        String faculty = sc.nextLine();
         infoMassiv[2] = faculty;
-
-        System.out.println("Vvedite daty rozdenia:");
-        String dateBorn = sc.nextLine();
         infoMassiv[3] = dateBorn;
-
-        System.out.println("Vvdeite nomer phone:");
-        String numberPhone = sc.nextLine();
         infoMassiv[4] = numberPhone;
 
-        for (int i = 0; i < infoMassiv.length; i++) {
-            System.out.print(infoMassiv[i] + " ");
-        }*/
-        Matrix matrix = new Matrix();
-        //Matrix.scannMatrix();
-        //matrix.sumMatrix();
-        matrix.printMatrix();
+        System.out.println("Vvedite chislo knig:");
+        Scanner scanner = new Scanner(System.in);
+        int chisloKnig = scanner.nextInt();
+
+        String[] knigi = {"SACK", "COOCK", "CHIRIK"};
+
+        reader.prisvaivanie();
+        reader.takeBook(chisloKnig);
+        reader.takeBook(knigi);*/
+
+
+
     }
 }
